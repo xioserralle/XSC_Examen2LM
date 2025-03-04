@@ -1,0 +1,120 @@
+
+@font-face {
+    font-family: "Street"; 
+    src: url("../fonts/street.otf"); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+#cabecera, h1, h2, legend, span {
+    font-family: "Street", sans-serif;
+} 
+
+body {
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Street, Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 8px;
+}
+
+h1{
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+
+tr, td {
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+table {
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+#cabecera{
+    width: 40px;
+    height: 45px;
+    background-image: url(../img/fondocabecera.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    opacity: 0.5;
+    font-size: 40px;
+}
+
+button {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: Street, Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    display: block;
+}
+
+form {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+h2{
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+
+fieldset {
+    margin: 10px;
+    padding: 5px;
+}
+
+legend {
+    font-family: Street, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    margin: 5px;
+}
+
+label {
+    display: block;
+    margin: 8px;
+}
+
+textarea {
+    width: 560px;
+    height: 200px;
+}
+
+
+
